@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: violet;
+  text-decoration: underline;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background: yellow;
+}
+
+.btn-1:hover {
+  background: rgba(255, 255, 0, 0.474);
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+form button {
+  background: #000;
+}
+form .button:hover {
+  background: rgba(0, 0, 0, 0.4117647059);
+}
+form input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+form textarea:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.subtitle {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 3rem 0;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+}
+
+#mainheader .container {
+  display: flex;
+}
+#mainheader .container .navbar {
+  width: 20%;
+}
+#mainheader .container .navbar .logo {
+  font-size: 3rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+#mainheader .container .navbar ul {
+  display: block;
+  margin-top: 3rem;
+}
+#mainheader .container .navbar ul li {
+  line-height: 50px;
+}
+#mainheader .container .navbar .container {
+  display: block;
+}
+#mainheader .container #showcase .container .flexbox-1 {
+  width: 40%;
+}
+#mainheader .container #showcase .container .flexbox-1 .showcase-img {
+  background: url("/img/home.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+#mainheader .container #showcase .container .flexbox-2 {
+  width: 40%;
+  margin-top: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content {
+  text-align: center;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .title {
+  font-size: 6rem;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .title span {
+  font-weight: 300;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content input {
+  padding: 0.5rem;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
