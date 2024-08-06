@@ -25,7 +25,6 @@ ul {
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-    color: violet;
     text-decoration: underline;
 }
 
@@ -77,10 +76,18 @@ form {
         border-radius: 5px;
     }
     button {
+        width: 100%;
         background: #000;
-    }
-    .button:hover {
-        background: #00000069;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+        text-transform: capitalize;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background: #00000087;
+        }
     }
     input:focus {
         outline: none;
@@ -109,6 +116,10 @@ form {
     display: flex;
     flex: 1;
     gap: 10px;
+}
+
+.puta-madre {
+    text-align: justify;
 }
 
 //mainheader
@@ -180,7 +191,6 @@ form {
                             text-align: center;
                             margin-bottom: 2rem;
                         }
-
                         input {
                             padding: .5rem;
                         }
@@ -189,7 +199,26 @@ form {
                             display: inline-block;
                             margin-bottom: 1rem;
                         }
-
+                        //about
+                        .flexbox-2-about {
+                            .title {
+                                color: red;
+                            }
+                            p {
+                                text-align: justify;
+                            }
+                        }
+                        //contact
+                        .flexbox-2-form {
+                            .title {
+                                font-weight: 400;
+                            }
+                            form {
+                           
+                                margin: 0 auto;
+                            }
+                            text-align: left;
+                        }
                     }
                 }
             }
