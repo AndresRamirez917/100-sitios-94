@@ -29,14 +29,14 @@ ul {
   font-family: "Font Awesome 5 free";
   font-weight: 600;
   content: "\f007";
-  text-align: right;
+  text-align: left;
 }
 
 ::placeholder {
   font-family: "Font Awesome 5 free";
   font-weight: 600;
   content: "\f007";
-  text-align: right;
+  text-align: left;
 }
 
 .container {
@@ -62,11 +62,11 @@ img {
 }
 
 .btn-1 {
-  background: yellow;
+  background: rgb(216, 104, 12);
 }
 
 .btn-1:hover {
-  background: rgba(255, 255, 0, 0.474);
+  background: rgba(255, 51, 0, 0.474);
 }
 
 form .form-group {
@@ -87,6 +87,7 @@ form button {
   text-transform: capitalize;
   border: none;
   border-radius: 5px;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 form button:hover {
@@ -147,6 +148,7 @@ form textarea:focus {
 }
 #mainheader .container #showcase .container .flexbox-1 {
   width: 40%;
+  margin-bottom: 1rem;
 }
 #mainheader .container #showcase .container .flexbox-1 .showcase-img {
   background: url("/img/home.jpg");
@@ -200,7 +202,7 @@ form textarea:focus {
   margin-bottom: 1rem;
 }
 #mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .flexbox-2-about .title {
-  color: red;
+  font-weight: 400;
 }
 #mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .flexbox-2-about p {
   text-align: justify;
@@ -212,10 +214,13 @@ form textarea:focus {
   font-weight: 400;
 }
 #mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .flexbox-2-form form {
+  width: 70%;
+  margin: 0 auto;
   margin: 0 auto;
 }
 
 #footer {
   text-align: center;
   padding: 3rem 0;
+  background: #000;
 }/*# sourceMappingURL=styles.css.map */

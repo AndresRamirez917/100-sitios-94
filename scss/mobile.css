@@ -1,1 +1,33 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .container {
+  display: block;
+}
+#mainheader .container .navbar {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .container #showcase .container .flexbox-1 .showcase-img {
+  width: 250%;
+  background-position: left;
+}
+#mainheader .container #showcase .container .flexbox-1 .showcase-img-2 {
+  width: 250%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mainheader .container #showcase .container .flexbox-1 .showcase-img-3 {
+  width: 250%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mainheader .container #showcase .container .flexbox-2 {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#mainheader .container #showcase .container .flexbox-2 .flexbox-2-content .title {
+  font-size: 4rem;
+}/*# sourceMappingURL=mobile.css.map */
