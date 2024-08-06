@@ -147,6 +147,21 @@ form {
                         height: 100vh;
                         
                     }
+                    .showcase-img-2 {
+                        background: url("/img/about.jpg");
+                    }
+                    .showcase-img-3 {
+                        background: url("/img/contact.jpg");
+                    }
+                    .showcase-img-2, .showcase-img-3 {
+                        background-position:50%;
+                        background-repeat: no-repeat;
+                        background-size:380%;
+                        height: 100vh;
+                        img {
+                            width: 0%;
+                        }
+                    }
                 }
                 .flexbox-2 {
                     width: 40%;
@@ -172,12 +187,15 @@ form {
                         .btn {
                             width: fit-content;
                             display: inline-block;
+                            margin-bottom: 1rem;
                         }
 
                     }
                 }
             }
+            
         }
+        
     }   
 }
 
